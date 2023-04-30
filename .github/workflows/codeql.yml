@@ -19,6 +19,10 @@ on:
     branches: [ "master" ]
   schedule:
     - cron: '19 20 * * 4'
+    
+defaults:
+  run:
+    working-directory: src
 
 jobs:
   analyze:
@@ -66,7 +70,7 @@ jobs:
 
     - run: |
         echo "Run, Build Application using script"
-        ./src/main
+        ./main
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
