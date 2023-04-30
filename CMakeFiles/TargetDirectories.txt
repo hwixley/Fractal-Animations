@@ -1,0 +1,3 @@
+/home/hwixley/Documents/random-coding-projects/fractal-animations/CMakeFiles/rebuild_cache.dir
+/home/hwixley/Documents/random-coding-projects/fractal-animations/CMakeFiles/edit_cache.dir
+/home/hwixley/Documents/random-coding-projects/fractal-animations/CMakeFiles/simple_example.dir
